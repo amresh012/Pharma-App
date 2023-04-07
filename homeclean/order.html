@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--  Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="order.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header Sectiomn -->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>MacroPharma</a>
+
+        <nav class="navbar">
+            <a class="active" href="#">Home</a>
+            <a href="#dishes">Categories</a>
+            <a href="#about">About</a>
+            <a href="#menu">Featured brands</a>
+            <a href="#review">Review</a>
+            <!--<a href="#order">Order</a>-->
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- Search Form -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="sproduct my-5 pt-5">
+
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <img class="img-fluid w-100" src="images/homecleaning.jpg" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h5>Home / Product</h5>
+                <h1 class="py-4"><strong>Fly Go</strong></h1>
+                <h2 id="product_price">$11.09</h2>
+                
+                <input type="number" value="1" id="price_quantity" min="1" max="5">
+                <button class="btn">Buy Now</button>
+                <h4 class="mt-5 mb-5"><strong>Product Details</strong></h4>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque aperiam id culpa tenetur accusamus
+                    natus assumenda tempora cumque tempore, nesciunt quae animi nisi dolorum nemo eos debitis, quos,
+                    totam architecto error? Laudantium, vel quisquam tenetur, quae ratione, ex nostrum aliquid ab
+                    officia adipisci consectetur suscipit nam. Laboriosam dignissimos expedita minima?</span>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">Delhi</a>
+                <a href="#">Gujrat</a>
+                <a href="#">Uttar Pradesh</a>
+                <a href="#">Uttrakhand</a>
+                <a href="#">West Bengal</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+91-6388458790</a>
+                <a href="#">+91-7318034356</a>
+                <a href="#">abc06@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit">copyright @ 2022 by <span>MacroCentrik</span></div>
+
+    </section>
+
+    <script src="order.js"></script>
+</body>
+
+</html>
